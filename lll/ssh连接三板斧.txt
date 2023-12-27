@@ -1,0 +1,5 @@
+添加ssh代理连接远程仓库四板斧
+eval $(ssh-agent -s)  启动ssh代理
+ssh-add ~/.ssh/id_rsa 添加ssh代理
+cat ~/.ssh/id_rsa.pub 查看复制密钥 到GitHub上去添加密钥
+ssh -T git@github.com 验证ssh是否连接成功
