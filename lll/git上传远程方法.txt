@@ -1,0 +1,4 @@
+提交远程仓库三板斧
+git add .  将新添加的文件添加到git暂存区 
+git commit -m "add new files"
+git push origin main
